@@ -1,5 +1,7 @@
 # Naro · Nano Relocalization
 
+![Naro 无人机重定位](docs/naro.png)
+
 轻量级全局激光重定位，离线建立地图索引，在线搜索并验证位置。结合局部结构和激光射线区分相似地点，可配合 FAST-LIO2 等 LIO 前端使用。
 
 - 静止开机定位，无需手动给定初始位姿。
