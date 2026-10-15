@@ -1,5 +1,5 @@
 {
-  "name": "naro",
+  "name": "Naro",
   "full_name": "Nano Relocalization",
   "version": "0.1.0",
   "sha256": {
@@ -54,7 +54,7 @@
     "NOTICE": "77157bb5fc9816d80b13357dacf2c934ac588b51a36dfe634a98bb12748d91ab",
     "package.xml": "3f5913359f11809d9de8803a39ab0027fdb17c03032e3327b0374699cd103c61",
     "pyproject.toml": "62260b540222e4e865988031d35d2a166ab112fe4cf035df574a1b0287fd8ed0",
-    "README.md": "cb8c9347bae54545fbd40e01c3d121bfbda015c037997680d5b82348ae7a6d22",
+    "README.md": "99445fe9dac9f20ef76f33a575083dc38b12f68adc38a2b4e35d9a4676eacc09",
     "requirements.txt": "54d3ab8dbc9a53e264a6df26703940ab09a2a4d2dfc01b80491e529a1462a7ec",
     "resource/naro": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "rviz/demo.rviz": "54fbf420eeb96002bf0649ab720960c51be31aad93e145d5cf3d7859443300d1",

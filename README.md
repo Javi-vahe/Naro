@@ -1,4 +1,4 @@
-# naro · Nano Relocalization
+# Naro · Nano Relocalization
 
 轻量级全局激光重定位，离线建立地图索引，在线搜索并验证位置。结合局部结构和激光射线区分相似地点，可配合 FAST-LIO2 等 LIO 前端使用。
 
@@ -15,7 +15,7 @@
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/Javi-vahe/naro.git
+git clone https://github.com/Javi-vahe/Naro.git naro
 ```
 
 2. 安装依赖：
