@@ -1,0 +1,68 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ''
+  Global Options:
+    Background Color: 30; 33; 38
+    Fixed Frame: map
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Plane Cell Count: 60
+      Cell Size: 1
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Map
+      Enabled: true
+      Topic:
+        Value: /naro/map
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Style: Points
+      Size (Pixels): 2
+      Color Transformer: FlatColor
+      Color: 145; 155; 168
+      Position Transformer: XYZ
+      Alpha: 0.45
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Aligned scan
+      Enabled: true
+      Topic:
+        Value: /naro/aligned
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Style: Points
+      Size (Pixels): 3
+      Color Transformer: FlatColor
+      Color: 61; 218; 180
+      Position Transformer: XYZ
+    - Class: rviz_default_plugins/Pose
+      Name: Pose
+      Enabled: true
+      Topic:
+        Value: /naro/pose
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Shape: Arrow
+      Color: 255; 174; 80
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 45
+      Pitch: 0.8
+      Yaw: 0.8
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+Window Geometry:
+  Width: 1280
+  Height: 800

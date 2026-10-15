@@ -1,0 +1,8 @@
+include package.xml LICENSE NOTICE README.md requirements.txt
+recursive-include resource *
+recursive-include launch *.py
+recursive-include config *.yaml
+recursive-include rviz *.rviz
+recursive-include examples *.json *.npy *.npz *.sdf
+recursive-include docs *.md
+recursive-include third_party *.txt

@@ -1,0 +1,18 @@
+naro:
+  ros__parameters:
+    map_dir: ''
+    cloud_topic: /cloud_registered
+    odom_topic: /Odometry
+    map_frame: map
+    odom_frame: camera_init
+    base_frame: body
+    lidar_translation: [0.0, 0.0, 0.0]
+    collect_seconds: 3.0
+    min_points: 2000
+    max_points: 150000
+    max_translation: 0.15
+    max_rotation_deg: 2.0
+    sync_tolerance: 0.2
+    threads: 4
+    auto_start: true
+    publish_tf: true

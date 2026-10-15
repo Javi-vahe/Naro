@@ -1,0 +1,2 @@
+numpy==1.26.4
+small_gicp==1.0.1

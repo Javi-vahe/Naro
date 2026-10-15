@@ -1,0 +1,70 @@
+{
+  "name": "JT128_FOV_proxy",
+  "rate_hz": 20,
+  "pose_xyz_rpy": [
+    0.0543,
+    0.0,
+    0.0418,
+    -0.028647988131444695,
+    -1.1914331242675664,
+    -3.1110086620648985
+  ],
+  "rotation_wxyz": [
+    -0.004620098778226013,
+    0.5611601697380056,
+    -0.003275691112046358,
+    0.8276878568848468
+  ],
+  "calibration_raw": [
+    [
+      -0.370156,
+      0.003972,
+      0.928961,
+      0.0543
+    ],
+    [
+      -0.011324,
+      -0.999936,
+      -0.000237,
+      0.0
+    ],
+    [
+      0.928901,
+      -0.010608,
+      0.370177,
+      0.0418
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "horizontal": {
+    "samples": 900,
+    "resolution": 1,
+    "min_angle": -3.141592653589793,
+    "max_angle": 3.134611336581816
+  },
+  "vertical": {
+    "samples": 128,
+    "resolution": 1,
+    "min_angle": -0.07731808586334879,
+    "max_angle": 1.5531685013497538
+  },
+  "range": {
+    "min": 0.35,
+    "max": 40,
+    "resolution": 0.01
+  },
+  "noise_std_m": 0.02,
+  "caveats": [
+    "Uniform elevation is an approximation, not JT128 per-channel angles.",
+    "No calibrated reflectivity, dual echoes, optical-center correction or rolling scan.",
+    "X500 body occlusion differs from Sparo 44018.",
+    "Nominal range/noise are experiment assumptions, not calibration."
+  ],
+  "source_calibration_sha256": "f3ee7705fea581434f533d00ee43ab9c173b9570e78b105421d373b0688e2b72",
+  "source_sensor": "https://www.hesaitech.com/wp-content/uploads/2026/04/JT128_User_Manual_J01-en-260330.pdf"
+}

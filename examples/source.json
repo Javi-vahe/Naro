@@ -1,0 +1,15 @@
+{
+  "algorithm": "2.10.1",
+  "original_code_sha256": {
+    "relocalize_base.py": "315650ee5da637841826a72178e6c8115d91f115727151ac4389d2dfe75e5140",
+    "relocalize_engine.py": "dfab59254ec53e3d07d2226a3b56aebec49b4db104a2e395c2f466c73a9af392",
+    "relocalize_structural.py": "9017679f6a27624612fbc4ef6055b74c5a86debd8f2cf73a8769d0973552d226",
+    "correlation.py": "afc43f9d0c3c5b0863900017e687a757c5ebbba73ffd0c1e10f5304ad3bbd5a5",
+    "ray_visibility.py": "ed25668edc386a3930a7cfb937c28d0a53a4def993f7e35514b46d56acce4972"
+  },
+  "data": "Gazebo static startup scans with independent LIO priors",
+  "release_changes": [
+    "complete map content cache key",
+    "separate observed free cells for imported maps"
+  ]
+}

@@ -1,0 +1,13 @@
+naro - Nano Relocalization
+Copyright 2026 naro contributors
+
+Original project code and the included simulation data are distributed under
+Apache-2.0.
+
+small_gicp is installed separately under the MIT license.
+https://github.com/koide3/small_gicp
+
+NumPy and ROS 2 retain their upstream licenses.
+
+Scene settings derived from PX4/PX4-gazebo-models and AWS RoboMaker Small
+Warehouse World retain their notices in third_party/.
